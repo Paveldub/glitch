@@ -9,6 +9,7 @@ body {
     position: relative;
     background-image: url('194802.jpg');
     background-size: cover;
+    animation: animate .2s infinite ease-in-out;
 }
 
 .glitch h1 {
@@ -35,10 +36,6 @@ body {
     background-image: url('194802.jpg');
     background-size: cover;
     mix-blend-mode: hard-light;
-}
-
-.glitch:hover:before {
-    animation: animate .2s infinite;
 }
 
 @keyframes animate {
